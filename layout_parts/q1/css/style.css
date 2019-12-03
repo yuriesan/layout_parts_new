@@ -8,24 +8,32 @@
   clear: both;
 }
 
-.q1__content{
+.q1__content {
   width: 940px;
   margin: 0 auto;
   padding: 20px;
   background-color: #eff3f4;
+  box-sizing: border-box;
 }
 
-.q1__content__box{
+.q1__content__box {
   float: left;
   width: 230px;
   margin-left: 20px;
-  background-color: #eaf4ff;
-  border: 20px solid #3274ae;
+  background-color: #3274ae;
+  padding: 20px;
 }
 
-.q1__content__text{
+.q1__content__box:first-child {
+  margin-left: 0;
+}
+
+.q1__content__text {
   padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
   border: 10px solid #022336;
+  background-color: #eaf4ff;
 }
 
 /* 回答はここに書いてね */

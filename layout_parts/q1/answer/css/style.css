@@ -12,11 +12,11 @@
 
 
 /* [9] 「clearfix」クラスに対してスタイルの指定をしている直下の5行のコメントアウトを外す => これで、「clearfix」というクラスに対して下記のスタイルが指定されます。つまり、「clearfix」が使えるようになりました。これをしてあげると、うまく表示されなかった「.q1__content」が、3つの濃い青いボックスを囲うようにちゃんと表示されたと思います。 [10]は58行目。 */
-/* .clearfix:after {
-  display: block;
+.clearfix:after {
+  /* display: block;
   content: "";
-  clear: both;
-} */
+  clear: both; */
+}
 
 /* q1__contentというクラスに対してのスタイルの指定 */
 .q1__content {

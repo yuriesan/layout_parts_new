@@ -4,10 +4,11 @@
 .box {
   margin-top: 20px;
 }
-table {
+.meal {
   border-collapse: collapse;
   border: solid 1px #dedede;
   width: 100%;
+  table-layout: fixed;
 }
 
 table th ,td {
@@ -17,16 +18,24 @@ table th ,td {
   padding-bottom: 10px;
 }
 
+table td {
+  font-size: 16px;
+  line-height: 22px;
+}
+
 td:first-child {
   background-color: #2244aa;
   color: #ffffff;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 
 table th {
   background-color: #2244aa;
   color: #ffffff;
-  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 tr:nth-child(2n-1) {
@@ -40,7 +49,6 @@ tr:last-child {
 .date {
   background-color: #2244aa;
   color: #ffffff;
-  font-weight: bold;
 }
 
 
