@@ -1,5 +1,44 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.box {
+  width: 940px;
+  background-color: #eff3f4;
+  margin: 0 auto;
+}
+
+.q2 {
+  padding: 20px;
+}
+
+.upper{ 
+
+}
+
+.upper-img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.upper-text {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.lower {
+
+}
+
+.lower-img {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.lower-text {
+  font-size: 18px;
+  line-height: 22px;
+}
 
 /* 回答はここに書いてね */
