@@ -1,14 +1,18 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box {
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.wrap {
+  padding: 20px;
   width: 940px;
   background-color: #eff3f4;
   margin: 0 auto;
-}
-
-.q2 {
-  padding: 20px;
 }
 
 .left-img {
@@ -17,10 +21,12 @@
   margin-bottom: 10px;
 }
 
-.upper-text {
+/* floatをつけた親要素に clearfix つける */
+
+.text {
   font-size: 18px;
   line-height: 22px;
-  white-space: pre-line;
+  word-break: break-all;
 }
 
 .right-img {
@@ -29,10 +35,6 @@
   margin-bottom: 10px;
 }
 
-.lower-text {
-  font-size: 18px;
-  line-height: 22px;
-  white-space: pre-line;
-}
+/* 文字の途中でも改行できるように指定する */
 
 /* 回答はここに書いてね */

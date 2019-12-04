@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box {
-  margin-top: 20px;
-}
+/* box 消す */
+
 .meal {
   border-collapse: collapse;
   border: solid 1px #dedede;
@@ -11,34 +10,30 @@
   table-layout: fixed;
 }
 
-table th ,td {
+/* table ではなくクラス名で当てる */
+.meal th ,td {
   border: solid 1px #dedede;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-table td {
+/* table ではなくクラス名で当てる */
+.meal td {
   font-size: 16px;
   line-height: 22px;
 }
 
-td:first-child {
+/* table ではなくクラス名で当てる */
+.meal th {
   background-color: #2244aa;
   color: #ffffff;
   font-size: 18px;
   line-height: 26px;
 }
 
-
-table th {
-  background-color: #2244aa;
-  color: #ffffff;
-  font-size: 18px;
-  line-height: 26px;
-}
-
-tr:nth-child(2n-1) {
+/* odd even 偶数奇数 */
+tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
@@ -46,11 +41,6 @@ tr:last-child {
   border-top: dashed 2px #000;
 }
 
-.date {
-  background-color: #2244aa;
-  color: #ffffff;
-}
-
-
+/* date　html上にない！消す */
 
 /* 回答はここに書いてね */

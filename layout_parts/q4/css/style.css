@@ -2,10 +2,10 @@
 
 /* 回答はここに書いてね */
 
-.q4 {
+/* クラス名つける */
+.wrap {
   background-color: #ecf1f2;
   padding: 20px;
-  
 }
 
 .graph{

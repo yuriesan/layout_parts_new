@@ -4,18 +4,18 @@
 
 /* Q6-1 text-align */
 
-.q6__box__inner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* text-align:center;で中央寄せになるようにする */
+
+.text-align {
+  text-align: center;
 }
 
 .q6__box__left {
   background-color: #e6f2ff;
-  text-align: center;
-  width: 90px;
   padding-top: 10px;
   padding-bottom: 10px;
+  display: inline-block;
+  width: 90px;
 }
 
 /* Q6-1 margin */
@@ -86,7 +86,7 @@
 }
 
 
-
+/* .q6__box__innerのクラス名が 被ってるところクラスメイ追加する*/
 
 
 /* 回答はここに書いてね */
