@@ -55,7 +55,6 @@
   border-radius: 50%;
   border: solid 10px #ecf1f2;
   border-top: 10px #00bcd4 solid;
-  background-color: #fff;
   animation: spin 1s linear infinite;
   position: relative;
   margin: 0 auto;

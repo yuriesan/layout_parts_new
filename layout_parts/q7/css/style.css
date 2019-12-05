@@ -16,14 +16,14 @@
   box-sizing: border-box;
 }
 
-.float-left {
+.float {
   float: left;
-  margin-right: 25px;
+  margin-right: 50px;
 }
 
-.float-right {
+.float:last-child {
   float: right;
-  margin-left: 25px;
+  margin-right: 0;
 }
 
 /* tableでの横並び */
@@ -35,15 +35,21 @@
 .table-text{
   display: table-cell;
   vertical-align: middle;
+  padding-right: 50px;
 }
 
-.table-left{
-  margin-right: 25px;
+.text-inner {
+  width: 225px;
+  box-sizing: border-box;
 }
 
-.table-right {
-  margin-left: 25px;
+.table-text:last-child {
+  padding-right: 0;
 }
+
+/* 謎！！！！！！！！ */
+
+
 
 /* inline-blockでの横並び */
 
@@ -55,15 +61,13 @@
   display: inline-block;
   vertical-align: middle;
   font-size: 16px;
+  margin-right: 50px;
 }
 
-.inlineblock-left {
-  margin-right: 25px;
+.inlineblock-text:last-child {
+  margin-right: 0;
 }
 
-.inlineblock-right {
-  margin-left: 25px;
-}
 
 /* flex での横並び */
 
@@ -74,10 +78,6 @@
 }
 
 /* inline-block と margin での横並び */
-
-.is-full {
-  font-size: 0;
-}
 
 .each-box {
   display: inline-block;
