@@ -1,0 +1,43 @@
+.box にはスタイルを当てない
+既存のクラスにはスタイル当てない ー クラス名の追加
+
+＜q1＞
+
+＜q2＞
+HTML
+・html cssの指定がないものへのクラス名不要
+・upper-text lower-text のクラス名統一
+・cssで float つけたクラスに clearfix つける
+
+CSS
+・padding つけたときに box-sizing:border-box;
+・textクラス 文字の途中でも改行できるようにcss指定する
+
+＜q3＞
+HTML
+・tableタグにクラス名作る
+・grayクラスの削除 ー＞ cssで何も指定されていない
+・tableタグ使ったときは tbody と thead クラスを追加する
+・日付を tdタグ ではなく thタグ を指定する
+
+CSS
+・html上にないクラスの消し忘れ消す！
+・tableタグに直接スタイル指定するのではなく、クラス名でスタイルを指定する
+・nth-child( )<-- odd,even 偶数、奇数で指定できる
+・ .meal tr:nth-child --> .meal tbody tr:nth-child で指定  tbodyを追加
+
+＜q4＞
+
+＜q5＞
+CSS
+・カラーコード大文字🙅‍ 小文字で！！
+
+＜q6＞
+HTML
+・.q6__box__inner 既存のクラス名！クラス名を追加する
+
+CSS
+・text-align:center; で中央寄せになっていない。 text-align:center;で中央寄せになるように
+
+
+

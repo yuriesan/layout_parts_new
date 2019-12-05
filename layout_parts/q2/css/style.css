@@ -13,6 +13,7 @@
   width: 940px;
   background-color: #eff3f4;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .left-img {

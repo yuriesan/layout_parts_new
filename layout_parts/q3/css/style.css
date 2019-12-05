@@ -11,7 +11,7 @@
 }
 
 /* table ではなくクラス名で当てる */
-.meal th ,td {
+.meal th ,.meal td {
   border: solid 1px #dedede;
   text-align: center;
   padding-top: 10px;
@@ -33,11 +33,11 @@
 }
 
 /* odd even 偶数奇数 */
-tr:nth-child(odd) {
+.meal tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-tr:last-child {
+.meal tbody tr:last-child {
   border-top: dashed 2px #000;
 }
 
