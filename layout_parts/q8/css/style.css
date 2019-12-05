@@ -25,7 +25,7 @@
   height: 100%;
   position: absolute;
   left: 0;
-  bottom: -100%;
+  top: 100%;
   transition: all 0.5s;
   background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
 }
@@ -44,7 +44,7 @@
 }
 
 .transition-img:hover .mask {
-  bottom: 0;
+  top: 0;
 }
 
 /* アニメーション animation */

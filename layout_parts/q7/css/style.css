@@ -35,14 +35,11 @@
   display: table-cell;
   vertical-align: middle;
   padding-right: 50px;
+  width: 225px;
 }
 
 .table-text:last-child {
   padding-right: 0;
-}
-
-.table-wrap {
-  width: 225px;
 }
 
 /* inline-blockでの横並び */
