@@ -2,4 +2,98 @@
 
 /* 回答はここに書いてね */
 
+/* floatでの横並び */
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.q7__box {
+  font-size: 16px;
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/* tableでの横並び */
+
+.table{
+  display: table;
+}
+
+.table-text{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table-left{
+  margin-right: 25px;
+}
+
+.table-right {
+  margin-left: 25px;
+}
+
+/* inline-blockでの横並び */
+
+.inlineblock-inner {
+  font-size: 0;
+}
+
+.inlineblock-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.inlineblock-left {
+  margin-right: 25px;
+}
+
+.inlineblock-right {
+  margin-left: 25px;
+}
+
+/* flex での横並び */
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/* inline-block と margin での横並び */
+
+.is-full {
+  font-size: 0;
+}
+
+.each-box {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+.box-left {
+  width: 300px;
+}
+
+.box-right {
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
 /* 回答はここに書いてね */
