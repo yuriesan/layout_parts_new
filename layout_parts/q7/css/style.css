@@ -2,19 +2,19 @@
 
 /* 回答はここに書いてね */
 
-/* floatでの横並び */
-
 .clearfix::after{
   content: "";
   display: block;
   clear: both;
 }
 
-.q7__box {
+.text-wrap {
   font-size: 16px;
   width: 225px;
   box-sizing: border-box;
 }
+
+/* floatでの横並び */
 
 .float {
   float: left;
@@ -22,7 +22,6 @@
 }
 
 .float:last-child {
-  float: right;
   margin-right: 0;
 }
 
@@ -38,18 +37,13 @@
   padding-right: 50px;
 }
 
-.text-inner {
-  width: 225px;
-  box-sizing: border-box;
-}
-
 .table-text:last-child {
   padding-right: 0;
 }
 
-/* 謎！！！！！！！！ */
-
-
+.table-wrap {
+  width: 225px;
+}
 
 /* inline-blockでの横並び */
 
@@ -60,14 +54,12 @@
 .inlineblock-text {
   display: inline-block;
   vertical-align: middle;
-  font-size: 16px;
   margin-right: 50px;
 }
 
 .inlineblock-text:last-child {
   margin-right: 0;
 }
-
 
 /* flex での横並び */
 

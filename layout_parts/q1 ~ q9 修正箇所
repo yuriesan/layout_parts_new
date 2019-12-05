@@ -40,6 +40,8 @@ CSS
 ・text-align:center; で中央寄せになっていない。 text-align:center;で中央寄せになるように
 
 ＜Q７＞
+q7__box 使わない
+
 HTML
 ・float-left,right 名前の統一 float:left;をかける
 
@@ -48,6 +50,9 @@ CSS
 
 -2
 ・隣接しているボックス同士で余白作る
+q7__box使わない --> クラス追加する
+display:table;のところ 横幅 boxsizing borderbox 外す
+text-inner 横幅の指定などはずす
 
 -3
 ・font-size 0 のクラス統一する .is-full 既存クラス
@@ -57,7 +62,12 @@ CSS
 CSS
 ・ .circle の background-color: #fff; なしでOK！
 
+.mask bottom:-100%; --> topから１００％と同じ！そっちの方がわかりやすい
+
 
 ＜q9＞
 CSS
 ・before と after で被ってるやつをまとめる
+
+
+スタイルの重複を確認する！
